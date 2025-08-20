@@ -12,11 +12,11 @@ jobs:
     - name: Hello step
       run : echo "Hello from GitHub Actions!"
 
-    - name: List Directories
-      run: ls -la
-
     - name: Clone Repository
       uses: actions/checkout@v3
+      
+    - name: List Directories
+      run: ls -la
 
   bye:
     runs-on: ubuntu-latest
