@@ -12,7 +12,7 @@ jobs:
     - name: Hello step
       run : echo "Hello from GitHub Actions!"
 
-    -name: List Directories
+    - name: List Directories
       run: ls -la
 
   bye:
