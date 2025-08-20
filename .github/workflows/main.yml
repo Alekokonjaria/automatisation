@@ -32,7 +32,7 @@ jobs:
       uses: actions/checkout@v3
       
     - name: Install Python 3.14
-      uses: action/setup-python@v3
+      uses: actions/setup-python@v3
       with: 
         python-version: "3.14"
 
